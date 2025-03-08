@@ -18,7 +18,7 @@ export function CycleHoliday(): React.JSX.Element {
         "St. Patrick's Day",
         "Independence Day",
         "Halloween",
-        "Christmas"
+        "Christmas",
     ];
 
     let alphabetical: string[] = [
@@ -26,7 +26,7 @@ export function CycleHoliday(): React.JSX.Element {
         "Halloween",
         "Independence Day",
         "New Year's Day",
-        "St. Patrick's Day"
+        "St. Patrick's Day",
     ];
 
     //alphabettically
@@ -55,7 +55,7 @@ export function CycleHoliday(): React.JSX.Element {
         ["St. Patrick's Day", "🍀"],
         ["Independence Day", "🎆"],
         ["Halloween", "🎃"],
-        ["Christmas", "🎄"]
+        ["Christmas", "🎄"],
     ]);
 
     return (

@@ -20,11 +20,9 @@ export function ChangeType(): React.JSX.Element {
                 <Button onClick={changeType}>Change Type</Button>
             </div>
             <div>
-                {type == "short_answer_question" ? (
+                {type == "short_answer_question" ?
                     <span>Short Answer</span>
-                ) : (
-                    <span>Multiple Choice</span>
-                )}
+                :   <span>Multiple Choice</span>}
             </div>
         </div>
     );
